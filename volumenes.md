@@ -48,7 +48,7 @@ spec:
   volumes:
   - name: my-volume
     hostPath:
-    ```
+```
     
 Para crear un persistentVolumeClaim:
 
@@ -71,5 +71,9 @@ spec:
       claimName: my-pvc
 ```
 
-Para crear el pod en Kubernetes, se puede utilizar el comando `kubectl apply -f pod.yaml`, donde `pod.yaml` es el nombre del archivo de configuración del pod.  
+Para crear el pod en Kubernetes, se puede utilizar el comando `kubectl apply -f pod.yaml`, donde `pod.yaml` es el nombre del archivo de configuración del pod. 
+
+
+
+
 
