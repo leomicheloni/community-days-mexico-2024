@@ -2,6 +2,9 @@
 
 ### ¿Qué es Kubernetes?
 
+
+![](./img/k8s.png)
+
 Kubernetes es una plataforma de código abierto para automatizar la implementación, escalado y operación de aplicaciones en contenedores. Kubernetes permite a los desarrolladores y administradores de sistemas gestionar aplicaciones de forma eficiente y escalable.
 
 ### Componentes de Kubernetes
@@ -31,6 +34,8 @@ Kubernetes consta de varios componentes que trabajan juntos para proporcionar un
 - *Volúmenes*: Los volúmenes son unidades de almacenamiento que se pueden montar en los contenedores de un pod. Los volúmenes permiten a los contenedores compartir datos de forma persistente.
 - *Ingress*: El Ingress es un recurso de Kubernetes que se utiliza para exponer servicios HTTP y HTTPS fuera del clúster. El Ingress permite enrutar el tráfico a los servicios en función de las reglas de configuración.
 
+
+![](./img/k8selements.png)
 
 #### Pods
 
