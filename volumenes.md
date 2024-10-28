@@ -4,9 +4,9 @@ Los volúmenes son unidades de almacenamiento que se pueden montar en los conten
 
 Existen varios tipos de volúmenes en Kubernetes, como emptyDir, hostPath, persistentVolumeClaim.
 
-- **emptyDir**: Un volumen emptyDir se crea cuando se crea un pod y se elimina cuando se elimina el pod. Los datos almacenados en un volumen emptyDir son efímeros y no persisten entre reinicios del pod.
-- **hostPath**: Un volumen hostPath monta un directorio del nodo del clúster en el contenedor del pod. Los datos almacenados en un volumen hostPath son persistentes y persisten entre reinicios del pod.
-- **persistentVolumeClaim**: Un volumen persistentVolumeClaim se utiliza para solicitar un volumen persistente en un clúster de Kubernetes. Los datos almacenados en un volumen persistentVolumeClaim son persistentes y persisten entre reinicios del pod.
+- *emptyDir*: Un volumen emptyDir se crea cuando se crea un pod y se elimina cuando se elimina el pod. Los datos almacenados en un volumen emptyDir son efímeros y no persisten entre reinicios del pod.
+- *hostPath*: Un volumen hostPath monta un directorio del nodo del clúster en el contenedor del pod. Los datos almacenados en un volumen hostPath son persistentes y persisten entre reinicios del pod.
+- *persistentVolumeClaim*: Un volumen persistentVolumeClaim se utiliza para solicitar un volumen persistente en un clúster de Kubernetes. Los datos almacenados en un volumen persistentVolumeClaim son persistentes y persisten entre reinicios del pod.
 
 Para crear un volumen en Kubernetes, se puede definir el volumen en el archivo de configuración del pod y montarlo en los contenedores del pod. A continuación se muestra un ejemplo de un archivo de configuración de un pod en Kubernetes con un volumen emptyDir:
 

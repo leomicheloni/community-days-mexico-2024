@@ -8,19 +8,19 @@ Los microservicios son una arquitectura de software que se basa en la creación 
 
 ### Ventajas de los microservicios
 
-- **Escalabilidad**: Cada servicio puede ser escalado de forma independiente.
-- **Despliegue continuo**: Cada servicio puede ser desplegado de forma independiente.
-- **Facilidad de mantenimiento**: Cada servicio puede ser actualizado de forma independiente.
-- **Facilidad de desarrollo**: Cada servicio puede ser desarrollado de forma independiente.
-- **Resistencia a fallos**: Si un servicio falla, los demás pueden seguir funcionando.
-- **Facilidad de adopción de nuevas tecnologías**: Cada servicio puede ser desarrollado con la tecnología que mejor se adapte a sus necesidades.
+- *Escalabilidad*: Cada servicio puede ser escalado de forma independiente.
+- *Despliegue continuo*: Cada servicio puede ser desplegado de forma independiente.
+- *Facilidad de mantenimiento*: Cada servicio puede ser actualizado de forma independiente.
+- *Facilidad de desarrollo*: Cada servicio puede ser desarrollado de forma independiente.
+- *Resistencia a fallos*: Si un servicio falla, los demás pueden seguir funcionando.
+- *Facilidad de adopción de nuevas tecnologías*: Cada servicio puede ser desarrollado con la tecnología que mejor se adapte a sus necesidades.
 
 ### Desventajas de los microservicios
 
-- **Complejidad**: La arquitectura de microservicios es más compleja que la arquitectura monolítica.
-- **Latencia**: La comunicación entre servicios puede introducir latencia en la aplicación.
-- **Consistencia**: Mantener la consistencia de los datos entre servicios puede ser complicado.
-- **Seguridad**: La seguridad de los microservicios puede ser más complicada que la de una aplicación monolítica.
+- *Complejidad*: La arquitectura de microservicios es más compleja que la arquitectura monolítica.
+- *Latencia*: La comunicación entre servicios puede introducir latencia en la aplicación.
+- *Consistencia*: Mantener la consistencia de los datos entre servicios puede ser complicado.
+- *Seguridad*: La seguridad de los microservicios puede ser más complicada que la de una aplicación monolítica.
 
 ## Contenedores
 
@@ -30,18 +30,18 @@ Los contenedores son una forma de empaquetar aplicaciones y sus dependencias en 
 
 ### Ventajas de los contenedores
 
-- **Portabilidad**: Los contenedores se pueden ejecutar en cualquier entorno que soporte contenedores.
-- **Escalabilidad**: Los contenedores se pueden escalar de forma independiente.
-- **Despliegue continuo**: Los contenedores se pueden desplegar de forma independiente.
-- **Facilidad de mantenimiento**: Los contenedores se pueden actualizar de forma independiente.
-- **Facilidad de desarrollo**: Los contenedores se pueden desarrollar de forma independiente.
-- **Aislamiento**: Los contenedores se ejecutan en un entorno aislado.
+- *Portabilidad*: Los contenedores se pueden ejecutar en cualquier entorno que soporte contenedores.
+- *Escalabilidad*: Los contenedores se pueden escalar de forma independiente.
+- *Despliegue continuo*: Los contenedores se pueden desplegar de forma independiente.
+- *Facilidad de mantenimiento*: Los contenedores se pueden actualizar de forma independiente.
+- *Facilidad de desarrollo*: Los contenedores se pueden desarrollar de forma independiente.
+- *Aislamiento*: Los contenedores se ejecutan en un entorno aislado.
 
 ### Desventajas de los contenedores
 
-- **Complejidad**: Los contenedores pueden introducir complejidad en la infraestructura.
-- **Seguridad**: Los contenedores pueden introducir problemas de seguridad si no se configuran correctamente.
-- **Rendimiento**: Los contenedores pueden introducir latencia en la aplicación.
+- *Complejidad*: Los contenedores pueden introducir complejidad en la infraestructura.
+- *Seguridad*: Los contenedores pueden introducir problemas de seguridad si no se configuran correctamente.
+- *Rendimiento*: Los contenedores pueden introducir latencia en la aplicación.
 
 ## Contenedores vs. Máquinas virtuales
 
@@ -49,11 +49,15 @@ Los contenedores son una forma de empaquetar aplicaciones y sus dependencias en 
 
 Los contenedores y las máquinas virtuales son dos tecnologías que permiten ejecutar aplicaciones en entornos aislados, pero hay algunas diferencias importantes entre ellas.
 
-- **Aislamiento**: Los contenedores comparten el mismo kernel del sistema operativo, mientras que las máquinas virtuales tienen su propio kernel.
-- **Rendimiento**: Los contenedores tienen un rendimiento mejor que las máquinas virtuales, ya que no tienen la sobrecarga de un sistema operativo completo.
-- **Portabilidad**: Los contenedores son más portables que las máquinas virtuales, ya que se pueden ejecutar en cualquier entorno que soporte contenedores.
-- **Escalabilidad**: Los contenedores son más escalables que las máquinas virtuales, ya que se pueden escalar de forma independiente.
-- **Despliegue continuo**: Los contenedores se pueden desplegar de forma más rápida que las máquinas virtuales, ya que no requieren un reinicio del sistema operativo.
+- *Aislamiento*: Los contenedores comparten el mismo kernel del sistema operativo, mientras que las máquinas virtuales tienen su propio kernel.
+- *Rendimiento*: Los contenedores tienen un rendimiento mejor que las máquinas virtuales, ya que no tienen la sobrecarga de un sistema operativo completo.
+- *Portabilidad*: Los contenedores son más portables que las máquinas virtuales, ya que se pueden ejecutar en cualquier entorno que soporte contenedores.
+- *Escalabilidad*: Los contenedores son más escalables que las máquinas virtuales, ya que se pueden escalar de forma independiente.
+- *Despliegue continuo*: Los contenedores se pueden desplegar de forma más rápida que las máquinas virtuales, ya que no requieren un reinicio del sistema operativo.
+
+
+![Docker](./img/containerized.webp) ![Docker](./img/vm.webp)
+(docker.com)
 
 ## Contenedores y microservicios
 

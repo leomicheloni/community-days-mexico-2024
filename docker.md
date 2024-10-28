@@ -2,9 +2,14 @@
 
 ### ¿Qué es Docker?
 
+![](./img/docker-logo.svg)
+
 Docker es una plataforma de código abierto que permite empaquetar, distribuir y ejecutar aplicaciones en contenedores. 
 
 ### Contenedores e imágenes
+
+
+![](./img/containerized.webp)
 
 Los contenedores son instancias en ejecución de imágenes de Docker. Las imágenes de Docker son plantillas que contienen el código y las dependencias de una aplicación.
 

@@ -8,28 +8,28 @@ Kubernetes es una plataforma de código abierto para automatizar la implementaci
 
 Kubernetes consta de varios componentes que trabajan juntos para proporcionar una plataforma de orquestación de contenedores. Algunos de los componentes más importantes de Kubernetes son:
 
-- **Kubelet**: El Kubelet es un agente que se ejecuta en cada nodo del clúster y se encarga de gestionar los contenedores en ese nodo.
-- **Kube-proxy**: El Kube-proxy es un proxy de red que se ejecuta en cada nodo del clúster y se encarga de enrutar el tráfico de red a los contenedores.
-- **Kube-controller-manager**: El Kube-controller-manager es un controlador que se encarga de gestionar los controladores de Kubernetes, como los controladores de replicación y los controladores de estado.
-- **Kube-scheduler**: El Kube-scheduler es un componente que se encarga de asignar los pods a los nodos del clúster en función de los recursos disponibles.
-- **Etcd**: Etcd es un almacén de datos distribuido que se utiliza para almacenar la configuración del clúster de Kubernetes.
+- *Kubelet*: El Kubelet es un agente que se ejecuta en cada nodo del clúster y se encarga de gestionar los contenedores en ese nodo.
+- *Kube-proxy*: El Kube-proxy es un proxy de red que se ejecuta en cada nodo del clúster y se encarga de enrutar el tráfico de red a los contenedores.
+- *Kube-controller-manager*: El Kube-controller-manager es un controlador que se encarga de gestionar los controladores de Kubernetes, como los controladores de replicación y los controladores de estado.
+- *Kube-scheduler*: El Kube-scheduler es un componente que se encarga de asignar los pods a los nodos del clúster en función de los recursos disponibles.
+- *Etcd*: Etcd es un almacén de datos distribuido que se utiliza para almacenar la configuración del clúster de Kubernetes.
 
 
 ### Ventajas de Kubernetes
 
-- **Escalabilidad**: Kubernetes permite escalar aplicaciones de forma eficiente y automática.
-- **Despliegue continuo**: Kubernetes facilita el despliegue continuo de aplicaciones al proporcionar una plataforma de orquestación de contenedores.
-- **Gestión de recursos**: Kubernetes permite gestionar eficientemente los recursos de los nodos del clúster.
-- **Automatización**: Kubernetes automatiza muchas tareas relacionadas con la gestión de aplicaciones en contenedores.
+- *Escalabilidad*: Kubernetes permite escalar aplicaciones de forma eficiente y automática.
+- *Despliegue continuo*: Kubernetes facilita el despliegue continuo de aplicaciones al proporcionar una plataforma de orquestación de contenedores.
+- *Gestión de recursos*: Kubernetes permite gestionar eficientemente los recursos de los nodos del clúster.
+- *Automatización*: Kubernetes automatiza muchas tareas relacionadas con la gestión de aplicaciones en contenedores.
 
 ### Elementos clave de Kubernetes
 
-- **Nodos**: Un nodo es una máquina física o virtual que forma parte de un clúster de Kubernetes. Cada nodo ejecuta el software de Kubernetes y puede ejecutar uno o más pods.
-- **Pods**: Un pod es la unidad básica de implementación en Kubernetes. Un pod puede contener uno o más contenedores que comparten recursos y se ejecutan en el mismo nodo.
-- **Deployment**: Un deployment es un recurso de Kubernetes que se utiliza para gestionar la implementación de pods. Los deployments permiten desplegar y escalar aplicaciones de forma sencilla.
-- **Servicios**: Un servicio es una abstracción que define un conjunto de pods y una política de acceso a ellos. Los servicios permiten a los pods comunicarse entre sí y con el mundo exterior.
-- **Volúmenes**: Los volúmenes son unidades de almacenamiento que se pueden montar en los contenedores de un pod. Los volúmenes permiten a los contenedores compartir datos de forma persistente.
-- **Ingress**: El Ingress es un recurso de Kubernetes que se utiliza para exponer servicios HTTP y HTTPS fuera del clúster. El Ingress permite enrutar el tráfico a los servicios en función de las reglas de configuración.
+- *Nodos*: Un nodo es una máquina física o virtual que forma parte de un clúster de Kubernetes. Cada nodo ejecuta el software de Kubernetes y puede ejecutar uno o más pods.
+- *Pods*: Un pod es la unidad básica de implementación en Kubernetes. Un pod puede contener uno o más contenedores que comparten recursos y se ejecutan en el mismo nodo.
+- *Deployment*: Un deployment es un recurso de Kubernetes que se utiliza para gestionar la implementación de pods. Los deployments permiten desplegar y escalar aplicaciones de forma sencilla.
+- *Servicios*: Un servicio es una abstracción que define un conjunto de pods y una política de acceso a ellos. Los servicios permiten a los pods comunicarse entre sí y con el mundo exterior.
+- *Volúmenes*: Los volúmenes son unidades de almacenamiento que se pueden montar en los contenedores de un pod. Los volúmenes permiten a los contenedores compartir datos de forma persistente.
+- *Ingress*: El Ingress es un recurso de Kubernetes que se utiliza para exponer servicios HTTP y HTTPS fuera del clúster. El Ingress permite enrutar el tráfico a los servicios en función de las reglas de configuración.
 
 
 #### Pods
