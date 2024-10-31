@@ -1,5 +1,11 @@
 # Docker y Kubernetes 101: Un vistaso teórico sobre estas dos herramientas desde cero.
 
+![](./img/evento.png)
+
+Leonardo Micheloni
+
+[@leomicheloni](https://x.com/leomicheloni)
+
 ## Microservicios
 
 ### ¿Qué son los microservicios?
