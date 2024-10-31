@@ -32,7 +32,7 @@ Docker se utiliza en una amplia variedad de casos de uso, incluyendo:
 #### Ejemplo de instalación de software ( rabbitmq )
 
 ```  powershell
-docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+docker run -d --hostname my-rabbit -p 8088:15672 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
 ```
 
 ### Contenerizar nuestra aplicación
